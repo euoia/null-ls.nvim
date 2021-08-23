@@ -142,7 +142,7 @@ local api = vim.api
 
 local no_really = {
     method = null_ls.methods.DIAGNOSTICS,
-    filetypes = {"markdown", "txt"},
+    filetypes = {"markdown", "text"},
     generator = {
         fn = function(params)
             local diagnostics = {}
